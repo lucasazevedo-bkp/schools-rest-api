@@ -11,8 +11,19 @@
 
 ## Installation
 
-Install requirements:
+Add an ".env" file and fill in the variables:
 
 ```sh  
+# .env content
+# for example, DJANGO_SECRET_KEY=hashed_secret_key
+DJANGO_SECRET_KEY=
+```
+
+Install the requirements, run: migrations, server and create superuser to access /admin:
+
+```sh
 pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
 ```
