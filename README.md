@@ -1,5 +1,5 @@
 # Schools REST API
-> Courses, Avaliations and Authentication REST API.
+> Courses, Evaluations and Authentication REST API.
 >
 > [Course](https://www.udemy.com/course/criando-apis-rest-com-django-rest-framework-essencial) & [Certificate](https://ude.my/UC-d18daeea-03fb-44f8-aa5e-383cbb49ac19)
 
